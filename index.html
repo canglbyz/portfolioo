@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Muhammed Can Gülbeyaz</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="mediaqueries.css" />
+  </head>
+  <body>
+    <nav id="desktop-nav">
+      <div class="logo">Muhammed Can Gülbeyaz</div>
+      <div>
+        <ul class="nav-links">
+          <li><a href="#about">Hakkımızda</a></li>
+          <li><a href="#experience">Beceriler</a></li>
+          <li><a href="#contact">İletişim</a></li>
+        </ul>
+      </div>
+    </nav>
+    <nav id="hamburger-nav">
+      <div class="logo">Muhammed Can</div>
+      <div class="hamburger-menu">
+        <div class="hamburger-icon" onclick="toggleMenu()">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+        <div class="menu-links">
+          <li><a href="#about" onclick="toggleMenu()">Hakkımızda</a></li>
+          <li><a href="#experience" onclick="toggleMenu()">Beceriler</a></li>
+          <li><a href="#contact" onclick="toggleMenu()">İletişim</a></li>
+        </div>
+      </div>
+    </nav>
+    <section id="profile">
+      <div class="section__pic-container">
+        <img src="./assets/profile-pic.png" alt="Can Gulbeyaz profile picture" />
+      </div>
+      <div class="section__text">
+        <p class="section__text__p1">Merhaba, Ben</p>
+        <h1 class="title">Muhammed Can</h1>
+        <p class="section__text__p2">Bİlgisayar Programcısı</p>
+        <div class="btn-container">
+          <button
+            class="btn btn-color-2"
+            onclick="window.open('./assets/resume-example.pdf')"
+          >
+            CV İndir
+          </button>
+          <button class="btn btn-color-1" onclick="location.href='./#contact'">
+            İletişim
+          </button>
+        </div>
+      </div>
+    </section>
+    <section id="about">
+      <p class="section__text__p1">Daha Fazlasını Öğrenin</p>
+      <h1 class="title">Hakkımızda</h1>
+      <div class="section-container">
+        <div class="section__pic-container">
+          <img
+            src="./assets/about-pic.png"
+            alt="Profile picture"
+            class="about-pic"
+          />
+        </div>
+        <div class="about-details-container">
+          <div class="about-containers">
+            <div class="details-container">
+              <img
+                src="./assets/experience.png"
+                alt="Experience icon"
+                class="icon"
+              />
+              <h3>Deneyim</h3>
+              <p>2+ yıl <br />Bilgisayar Programcısı</p>
+            </div>
+            <div class="details-container">
+              <img
+                src="./assets/education.png"
+                alt="Education icon"
+                class="icon"
+              />
+              <h3>Eğitim</h3>
+              <p>Adıyaman Üniversitesi Bilgisayar Programcılığı </p>
+            </div>
+          </div>
+          <div class="text-container">
+            <p>
+              Merhaba! Ben Muhammed Can Gülbeyaz, 19 Mart 2002 doğumluyum. Adıyaman Üniversitesi Bilgisayar Programcılığı bölümünden mezun oldum. Teknolojiye olan ilgim ve bilgisayar programcılığı alanındaki eğitimim sayesinde, yazılım geliştirme ve problem çözme konularında yetkinlik kazandım. Kariyerim için teknoloji alanlarında fark yaratmak için çalışıyorum. En iyi hizmeti sunmak için buradayım
+            </p>
+          </div>
+        </div>
+      </div>
+      <img
+        src="./assets/arrow.png"
+        alt="Arrow icon"
+        class="icon arrow"
+        onclick="location.href='./#experience'"
+      />
+    </section>
+    <section id="experience">
+      <p class="section__text__p1">Benim</p>
+      <h1 class="title">Deneyim</h1>
+      <div class="experience-details-container">
+        <div class="about-containers">
+          <div class="details-container">
+            <h2 class="experience-sub-title">Beceriler</h2>
+            <div class="article-container">
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>E-ticaret</h3>
+                  <p>Orta Seviye</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Sosyal medya kontrolü</h3>
+                  <p>Orta Seviye</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Microsoft Uygulamalar</h3>
+                  <p>İleri Seviye</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Pazarlama</h3>
+                  <p>Orta Seviye</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+              </article>
+              
+            </div>
+          </div>
+          
+              
+
+      <img
+        src="./assets/arrow.png"
+        alt="Arrow icon"
+        class="icon arrow"
+        onclick="location.href='./#projects'"
+      />
+    </section>
+   
+       
+         
+      <img
+        src="./assets/arrow.png"
+        alt="Arrow icon"
+        class="icon arrow"
+        onclick="location.href='./#contact'"
+      />
+    </section>
+    <section id="contact">
+      <p class="section__text__p1">İletişime Geçin</p>
+      <h1 class="title">Bana Ulaşın</h1>
+      <div class="contact-info-upper-container">
+        <div class="contact-info-container">
+          <img
+            src="./assets/email.png"
+            alt="Email icon"
+            class="icon contact-icon email-icon"
+          />
+          <p><a href="mailto:examplemail@gmail.com">mhmmtgulbeyaz@gmail.com</a></p>
+        </div>
+        <div class="contact-info-container">
+          
+        </div>
+      </div>
+    </section>
+    <footer>
+      <nav>
+        <div class="nav-links-container">
+          <ul class="nav-links">
+            <li><a href="#about">Hakkımızda</a></li>
+            <li><a href="#experience">Beceriler</a></li>
+            <li><a href="#contact">İletişim</a></li>
+          </ul>
+        </div>
+      </nav>
+      <p>Telif Hakkı &#169; 2023 Muhammed Can Tüm hakları saklıdır.</p>
+    </footer>
+    <script src="script.js"></script>
+  </body>
+</html>
